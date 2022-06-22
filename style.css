@@ -1,0 +1,399 @@
+/******************************************************************************************************************/
+/*ENSEMBLE DES POLICES A METTRE SUR LE SITE*/
+/******************************************************************************************************************/
+@font-face {
+    font-family: 'flesh';
+    src: url('/police/flesh_wound.woff2');/*police à convertir sous .woff via webFont afin de les utilisé sous font-family*/
+}
+@font-face {
+    font-family: 'alph';
+    src: url('/police/alphabet_snk_by_pmpeps.woff');
+}
+@font-face {
+    font-family: 'daph';
+    src: url('/police/mrdafoe-regular.woff2');
+}
+@font-face {
+    font-family: 'manga_hollowregular';
+    src: url('/police/pp/manga_hollow-webfont.woff2') format('woff2'),
+         url('/police/pp/manga_hollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mangaregular';
+    src: url('/police/pp/manga-webfont.woff2') format('woff2'),
+         url('/police/pp/manga-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mangabold';
+    src: url('/police/pp/manga_bold-webfont.woff2') format('woff2'),
+         url('/police/pp/manga_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'anime';
+    src: url('/police/animeace2_bld.ttf') 
+}
+/******************************************************************************************************************/
+/*ENSEMBLE DES POLICES A METTRE SUR LE SITE*/
+/******************************************************************************************************************/
+
+/******************************************************************************************************************/
+/*PAGE D'ACCUEIL AVEC 2 SECTIONS PERSO&TT + RESUMES*/
+/******************************************************************************************************************/
+#accueilPage{
+    background-color: black;
+}
+#pageContent{
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/*SECTION GAUCHE*/
+#persoEtTitansGauche {
+    background-color: rgb(49, 20, 20);
+    border: 10px ridge rgba(255, 0, 0, 0.671) ;
+    position: fixed;
+    width: 60%;
+    height: 60%;
+    float: left;
+    left: 3%;
+    top: 30%;    
+    border-radius: 3%;
+    overflow: auto;
+    overflow-y: scroll;
+    text-align: center;
+} 
+#persoEtTitansGauche img{
+    width: 50%;
+    height: max-content;
+    opacity: 0.5;
+}
+#persosAccueilPage {
+    position: relative;
+    text-align: center;
+    border: black;
+    background-color: rgb(49, 20, 20);    
+}
+#persosAccueilPage h1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-size: 300%;
+    font-family: 'manga_hollowregular';
+}
+#titansAccueilPage{
+    position: relative;
+    text-align: center;
+    border: black;
+    background-color: rgb(49, 20, 20);
+}
+#titansAccueilPage h1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-size: 300%;
+    font-family: 'manga_hollowregular';
+}
+/*********************************************SCROLL BAR**********************************************************/
+#persoEtTitansGauche::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+  
+#persoEtTitansGauche::-webkit-scrollbar-track {
+    background: red; /* color of the tracking area */
+    border-radius: 10%;
+    height: max-content;
+}
+#persoEtTitansGauche::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0); /* color of the scroll thumb */
+    border-radius: 50px; /* roundness of the scroll thumb */
+    border: 3px solid red; /* creates padding around scroll thumb */
+}
+/*SECTION DROITE*/
+#resumeDroite{
+    font-family: 'mangabold';
+    background-image: url(/Image/logo6.png);
+    background-size: contain;
+    border: 10px ridge rgba(255, 0, 0, 0.671) ;
+    position: fixed;
+    width: 30%;
+    height: 60%;
+    right: 1%;
+    top: 30%; 
+    border-radius: 3%;
+    overflow: auto;
+    overflow-y: scroll;
+    text-align: center;
+}
+#resumeDroite a{
+    text-decoration: none;
+}
+#resumeDroite h1{
+    position: static;
+    font-size:2.5em ;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    text-decoration: none;
+}
+#resumeDroite h1 a{
+    text-decoration: none;
+    color: red;
+}
+#listeSaisons div{
+    text-decoration: none;
+    color: ivory;
+    position: relative;
+    display: inline-flex;
+    top: 65px;
+    width: 90%;
+    height: 25%;
+    box-sizing: content-box;
+}
+#listeSaisons a:hover{
+    font-size: 2em;
+    display: block;
+    background-color: rgba(241, 9, 9, 0.5);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*SAISON1*/
+#saison1AccueilPage p{
+    text-decoration: none;
+    color: ivory;
+    text-shadow: 0.5px 0.5px black;
+}
+#saison1AccueilPage{
+    position: relative;
+    top: 5%;
+}
+/*SAISON2*/
+#saison2AccueilPage{
+    position: relative;
+    top: 5%;
+}
+#saison2AccueilPage p{
+    text-decoration: none;
+    color: ivory;
+    text-shadow: 0.5px 0.5px black;
+}
+/*SAISON3*/
+#saison3AccueilPage{
+    position: relative;
+    top: 5%;
+}
+#saison3AccueilPage p{
+    text-decoration: none;
+    color: ivory;
+    text-shadow: 0.5px 0.5px black;
+}
+/*SAISON4*/
+#saison4AccueilPage{
+    position: relative;
+    top: 5%;
+}
+#saison4AccueilPage p{
+    text-decoration: none;
+    color: ivory;
+    text-shadow: 0.5px 0.5px black;
+} 
+/*********************************************SCROLL BAR**********************************************************/
+
+#resumeDroite::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+#resumeDroite::-webkit-scrollbar-track {
+    background: red; /* color of the tracking area */
+    border-radius: 10%;
+    height: max-content;
+
+} 
+#resumeDroite::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0); /* color of the scroll thumb */
+    border-radius: 50px; /* roundness of the scroll thumb */
+    border: 3px solid red; /* creates padding around scroll thumb */
+}
+
+/******************************************************************************************************************/
+/*PAGE D'ACCUEIL AVEC 2 SECTIONS PERSO&TT + RESUMES*/
+/******************************************************************************************************************/
+
+/******************************************************************************************************************/
+/*PAGE PERSO&TT*/
+/******************************************************************************************************************/
+#persoPage{
+    background-image: url(/Image/mixlogoo.png);
+    background-color: rgb(3, 58, 3);
+    margin-top: 7%;
+    text-align: center;
+    text-decoration: none;
+}
+#persoPage h1 {
+    background-color: black;
+    color: ivory;
+    font-size: 5.2em;
+    font-family: 'manga_hollowregular';
+}
+#titansPage{
+    background-image:url(/Image/logo6.png);
+    background-color: rgb(100, 3, 3);
+}
+
+/******************************************************************************************************************/
+/*PAGE PERSO&TT*/
+/******************************************************************************************************************/
+
+/******************************************************************************************************************/
+/*PAGE RESUMES*/
+/******************************************************************************************************************/
+#resumePage{
+    background: url(/Image/snkFDE2.jpg) no-repeat;
+    position: fixed;
+    background-size: 100%;
+    min-height: 100%;
+}
+#saisons div:hover{
+    background-color: yellow;
+}
+#saisons a{
+    color: red;
+}
+#saisons{
+    position: fixed;
+    font-family: 'flesh';
+    font-size: 90px;
+    padding: 12%;
+    box-sizing: border-box;
+    text-align: center;
+}
+#saison1{
+    background-color: black;
+    opacity: 0.9;
+    border: 4mm ridge rgba(241, 9, 9, 0.6);;
+    display: inline-block; 
+    width: 40%;
+    height: 2EM;
+    margin-bottom: 3%;
+}
+#saison2{
+    background-color: black;
+    opacity: 0.9;
+    border: 4mm ridge rgba(241, 9, 9, 0.6);;
+    display: inline-block;
+    width:40%;
+    height: 2EM;
+    margin: 0%
+
+}
+#saison3{
+    background-color: black;
+    opacity: 0.9;
+    border: 4mm ridge rgba(241, 9, 9, 0.6);;
+    display: inline-block; 
+    width: 40%;
+    height: 2EM;
+    margin: 0%;
+}
+#saison4{
+    background-color: black;
+    opacity: 0.9;
+    border: 4mm ridge rgba(241, 9, 9, 0.6);;
+    display: inline-block; 
+    width: 40%;
+    height: 2EM;
+    margin: 0%;
+}
+
+/******************************************************************************************************************/
+/*PAGE RESUMES*/
+/******************************************************************************************************************/
+/******************************************************************************************************************/
+/*PAGE SAISON*/
+/******************************************************************************************************************/
+
+/******************************************************************************************************************/
+/*PAGE SAISON*/
+/******************************************************************************************************************/
+
+/******************************************************************************************************************/
+/*BARRE D'OUTILS EN ENTETE& PIED DE PAGE*/
+/******************************************************************************************************************/
+#mainHeader img{
+    position: relative;
+    padding-top: 0%;
+    padding-left: 1%;
+}
+#menuToggle{
+    display: none;
+}
+#mainHeader h1{
+    position:fixed;
+    left: 40%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 5em;
+}
+#mainHeader{
+    position: fixed;
+    background-color: brown;
+    opacity: 0.9;
+    font-family: 'alph';
+    top: 0;
+    left: 0%;
+    margin: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#mainFooter p{
+    margin: 0%;
+    padding-top: .3em;
+}
+#mainFooter{
+    position: fixed;
+    bottom: 0;
+    background-color: brown;
+    margin: 0;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+    left: 0%;
+}
+#mainNav a{
+    text-decoration: none;
+    color: black;
+}  
+#mainNav a:hover{
+    color: red;
+}
+#mainNav ul{
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+    font-size: 1.5em;
+}
+#mainNav{
+    color: black;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
+.accessibility {
+    position: absolute;
+    left: -2000px;
+}
+/******************************************************************************************************************/
+/*BARRE D'OUTILS EN ENTETE& PIED DE PAGE*/
+/******************************************************************************************************************/
