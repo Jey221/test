@@ -1,4 +1,31 @@
-/********************************************GENERAL****************************************************/
+/********************************************BLOC ACCUEIL****************************************************/
+#pageContent {
+    margin: 1%;
+    display: flex;
+    background-color: coral;
+    border-radius: 40px;
+    gap: 5%;
+}
+#persoEtTitansGauche {
+    display: flex;
+    background-color: slateblue;
+    border-radius: 40px;
+    flex-basis: 60%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#persosAccueilPage {
+    background-image: url(/Image/titanFDE.jpg);
+}
+#titansAccueilPage {
+   background-color: yellow;  
+}
+#resumeDroite {
+    display: flex;
+    background-color: gold;
+    border-radius: 40px;
+    flex-basis: 30%;
+}
 /********************************************GENERAL****************************************************/
 /********************************************GENERAL****************************************************/
 /********************************************GENERAL****************************************************/

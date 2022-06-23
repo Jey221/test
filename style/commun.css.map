@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"commun.css"}
+{"version":3,"sourceRoot":"","sources":["commun.scss"],"names":[],"mappings":"AAAA;AAEA;AACA;EACI;;;AAEJ;EACI;;;AAEJ;AACA;EACI;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;;AAEJ;EACI;EACA;;;AAGR;EACI;;;AAGJ;AACA;AACA;AACA;AACA","file":"commun.css"}
