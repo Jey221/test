@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Blog Attack on Titans</title>
+        <link rel="stylesheet" href="/style/commun.css" /><!--rajouter lien pour js si il faut// intégrer du son si possible chcher OST-->
+        <link rel="stylesheet" href="/style/accueil.css" /><!--rajouter lien pour js si il faut// intégrer du son si possible chcher OST-->
+    </head>
+    <body id="accueilPage">
+        <header class="mainHeader">
+            <img src="/Image/Logo.jpg" alt="Logo" id="logoSNK" />
+            <h1>Blog SNK</h1>
+            <nav class="mainNav">
+                <h2 class="accessibility">Menu principal</h2>
+                <ul>
+                    <li><a href="/pageHTML/accueilPage copy.html" title="retour à la page d'accueil">Accueil</a></li><!--ramene à la page d'accueil-->
+                    <li><a href="/pageHTML/persoEtTitans.html#persoPage" title="Personnages principaux">Personnages</a></li><!--liste des perso-->
+                    <li><a href="/pageHTML/persoEtTitans.html#titansPage" title="Les 9 titans primordiaux">Titans</a></li><!--liste des titans (sur la mm page que les perso, bas de page)-->
+                    <li><a href="/pageHTML/resume.html" title="Liste des saisons">Resumes</a></li><!--page des résumé avec liste des saisons-->
+                    <li><a href="/pageHTML/contact.html" title="Call me maybe">Contact</a></li><!--faire un formulaire-->
+                </ul>
+            </nav>
+            <button id="menuToggle"><img src="/Image/layout/hamburger.svg" alt="Ouvrir / Fermer le menu" /></button>
+        </header><!--header avec menu qui sera copier sur l'ensemble des pages sauf le résumé// mettre logo a droite, titre centré, menu a droite avec option hamburger les petits ecran-->
+            <section id="pageContent" class="pageTwoBlog">
+                <div id="persoEtTitansGauche">
+                    <div id="persosAccueilPage"><!--rendre l'ensemble clicable si possible vers persoEtTitans--> 
+                        <a href="/pageHTML/persoEtTitans.html#persoPage">
+                        <h1>Personnages principaux</h1><!--trouver image pour fond de la section--></a>
+                    </div>
+                    <div id="titansAccueilPage"><!--rendre l'ensemble clicable si possible vers persoEtTitans--> 
+                        <a href="/pageHTML/persoEtTitans.html#titansPage">
+                        <h1>Les 9 Titans primordiaux</h1><!--trouver image pour fond de la section--></a>
+                    </div>
+                </div>
+                <div id="resumeDroite"><!--sur le coté droit-->
+                    <h1><a href="/pageHTML/resume.html">Résumés :</a></h1>
+                    <div id="listeSaisons">
+                        <div class="saisonAccueil">
+                            <a href="/pageHTML/saisons/saison1.html" title="liste des episodes saison 1">
+                                <div id="saison1AccueilPage">
+                                    <h2>Saison 1</h2><!--titre et lien vers saison détaillé// mettre un mini resumé de la saison// si 4 FDE différent intégrer a chaque saison-->
+                                    <p>Dans un monde ravagé depuis plus d’un siècle par des titans mangeurs d’homme, les rares survivants de l’humanité n’ont d’autre choix que de se barricader dans une cité-forteresse. Le jeune Eren, témoin de la mort de sa mère dévorée par un titan, n’a qu’un rêve : entrer dans le corps d’élite chargé de découvrir l’origine des titans et de les annihiler jusqu’au dernier.</p>
+                                </div>
+                            </a>    
+                        </div>
+                        <div class="saisonAccueil">
+                            <a href="/pageHTML/saisons/saison2.html" title="liste des episodes saison 2">
+                                <div id="saison2AccueilPage">
+                                    <h2>Saison 2</h2><!--titre et lien vers saison détaillé// mettre un mini resumé de la saison// si 4 FDE différent intégrer a chaque saison-->
+                                    <p>Après s’être enrôlé dans l’armée pour combattre, Eren découvre qu’il peut se transformer lui-même en ce qu’il exècre le plus. Mais il comprend rapidement que ses nouveaux pouvoirs peuvent lui servir à repousser ses assaillants. Il doit désormais faire face à une horde de titans s’approchant dangereusement du Mur Rose. De nouveaux mystères apparaissent au grand jour, et un titan doué de parole semble tirer les ficelles de cette nouvelle vague d’assaillants affamés et surdimensionnés.</p>
+                                </div>
+                            </a>    
+                        </div>
+                        <div class="saisonAccueil">
+                            <a href="/pageHTML/saisons/saison3.html" title="liste des episodes saison 3">
+                                <div id="saison3AccueilPage">
+                                    <h2>Saison 3</h2><!--titre et lien vers saison détaillé// mettre un mini resumé de la saison// si 4 FDE différent intégrer a chaque saison-->
+                                    <p>Kidnappé par Bertholdt et Reiner, Eren a pu s’échapper grâce à l’aide du bataillon d’exploration. Mais les pertes sont lourdes, et ce d’autant plus qu’Ymir a décidé de rejoindre l’ennemi. Alors que le roi donne l’ordre de capturer Christa et Eren, un esprit de rébellion gagne peu à peu les rangs du bataillon.</p>
+                                </div>
+                            </a>    
+                        </div>
+                        <div class="saisonAccueil">
+                            <a href="/pageHTML/saisons/saison4.html" title="liste des episodes saison 4">
+                                <div id="saison4AccueilPage">
+                                    <h2>Saison 4</h2><!--titre et lien vers saison détaillé// mettre un mini resumé de la saison// si 4 FDE différent intégrer a chaque saison-->
+                                    <p>Quatre ans après son départ de Paradis, Reiner s'impose en soldat d'élite aux côtés des futures réceptacles des titans promordiaux. Mais son passé le hante toujours et la menace d'une vengeance de la part d'Eren et de ses camarades plane.</p>
+                                </div>    
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="mainFooter">
+                <p>&copy;Copyright J. K. 2021</p>
+            </footer>  
+        </body>
+</html>
